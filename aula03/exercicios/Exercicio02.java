@@ -28,9 +28,6 @@ public class Exercicio02 {
     }
     
 
-        
-
-
    teclado.close();
     }
 }
