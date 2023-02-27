@@ -15,6 +15,9 @@ public class Exercicio04 {
 
     System.out.println("Digite a prestacao: ");
     valorPrestacao = teclado.nextDouble();
+// Para codigo limpo 
+//valorMaximo = salarioBruto * 0.3;
+//podeEmprestar= valorPrestacao
 
 
     if (valorPrestacao <= 0.3 * salarioBruto) {
