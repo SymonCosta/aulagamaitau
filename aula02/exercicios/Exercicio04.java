@@ -23,9 +23,9 @@ public class Exercicio04 {
     valorComdesconto = valorApagar * 0.85;
 
     //Saida
-    System.out.println("Valor de 1 kW= " + valorkW );
-    System.out.println("Valor a pagar: " + valorApagar );
-    System.out.println("Valor com desconto: " + valorComdesconto);
+    System.out.println("Valor de 1 kW= R$" + valorkW );
+    System.out.println("Valor a pagar: R$" + valorApagar );
+    System.out.println("Valor com desconto: R$" + valorComdesconto);
 
     
 
