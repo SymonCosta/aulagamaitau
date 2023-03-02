@@ -2,8 +2,6 @@ package exercicios;
 
 import java.util.Scanner;
 
-import javax.naming.ldap.Control;
-
 public class Exercicio08 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
