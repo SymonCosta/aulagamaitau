@@ -57,7 +57,7 @@ public static void main(String[] args) {
         // }
 
         return ( valor % 2 ) == 0 ;
-
+// retorna o valor
 
 }
     
