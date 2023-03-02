@@ -11,9 +11,9 @@ public class Exemplo04 {
         // System.out.println(a);
         // System.out.println(b);
 
-        Relogio  r1 = new Relogio( 10 , 0 , 0 );
+        Relogio   r1 = new Relogio ( 10 , 0 , 0 );
 
-        Relogio  r2 ;
+        Relogio   r2 ;
         
         r2 = r1 ;
 
@@ -21,7 +21,6 @@ public class Exemplo04 {
 
         r1 . exibir ();
         r2 . exibir ();   
-
 
     }
 }

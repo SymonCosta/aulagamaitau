@@ -1,32 +1,31 @@
 package exemplos.exemplo04;
 
-public class Relogio {
-    private  int  hora , minuto , segundo ;
+public  class  Relogio {
+    private   int   hora , minuto , segundo ;
 
-    public void Relogio (int  hora , int  minuto , int  segundo) {
-        setHora ( hora);
+    public  void  Relogio ( int   hora , int   minuto , int   segundo ) {
+        setHora ( hora );
         setMinuto ( minuto );
         setSegundo ( segundo );
     }  
         
 }
 
-    public  int  getHora () {
-         return hora ;
+    public   int   getHora () {
+          hora de retorno ;
     }
 
-    public  void  setHora ( int  hora ) {
+    public   void   setHora ( int   hora ) {
         if ( hora >= 0 && hora < 24 ) {
-            this.hora = hora ;
+            isso . hora = hora ;
         }
     }
 
-    public  int  getMinuto () {
-        return  minuto ;
+    public   int   getMinuto () {
+        voltar   minuto ;
     }
 
-    public  void  setMinuto ( int  minuto ) {
+    public   void   setMinuto ( int   minuto ) {
         if ( minuto >= 0 && minuto < 60 ) {
-            this.minuto = minuto ;
+            isso . minuto = minuto ;
         }  
-}
