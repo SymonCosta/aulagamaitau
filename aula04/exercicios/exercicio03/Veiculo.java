@@ -21,7 +21,7 @@ public class Veiculo {
 
     void  setConsumo ( double  consumo ) {
         if ( consumo > 0 ) {
-            this . consumo = consumo ;
+            this.consumo = consumo ;
         }
     }
 }
