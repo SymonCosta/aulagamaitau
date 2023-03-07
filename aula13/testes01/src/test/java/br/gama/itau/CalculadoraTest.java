@@ -14,7 +14,7 @@ public class CalculadoraTest {
 
     // padrão de nomes de métodos de teste
     // given-when-then: Dado quê - Quando - Então
-    // DadosDoisInteiros_ExcuitaASoma_retorneASoma
+    // DadosDoisInteiros_ExcutaASoma_retorneASoma
 
     // Outro padrão: nomeMétodo_Cenário_ResutladoEsperado
 
