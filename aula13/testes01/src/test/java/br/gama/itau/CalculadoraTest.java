@@ -6,10 +6,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.api.Test;
 
 public class CalculadoraTest {
-    
+
     // padrão de nomes de métodos de teste
     // given-when-then: Dado quê - Quando - Então
     // DadosDoisInteiros_ExcuitaASoma_retorneASoma
@@ -37,10 +39,10 @@ public class CalculadoraTest {
     }
 
     @ParameterizedTest // indica que o teste será executados várias vezes com valores diferentes
-    @CsvSource ({"10,20", "0,-2", "0,0"}) // valores de entrada do teste
+    @CsvSource({"10,20", "0,-2", "0,0"}) // valores de entrada do teste
     public void soma_retornaASoma_quandoDoisValoresValidos(int valor1, int valor2) {
         //preparação
-        int esperado = valor1 + valor2; 
+        int esperado = valor1 + valor2;
 
         // execução
         int resposta = Calculadora.soma(valor1, valor2);
